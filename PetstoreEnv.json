@@ -1,0 +1,15 @@
+{
+    "name": "PetstoreEnv",
+    "values": [
+      {
+        "key": "url",
+        "value": "https://petstore.swagger.io/v2",
+        "enabled": true
+      },
+      {
+        "key": "petId",
+        "value": "",
+        "enabled": true
+      }
+    ]
+  }
