@@ -8,13 +8,13 @@ The collection includes requests, test scripts, environment variables, and execu
 - Base URL: https://petstore.swagger.io/v2
 - API Documentation: https://petstore.swagger.io/
 
-- ##  Tools Used
+ ##  Tools Used
 - Postman
 - REST APIs
 - JavaScript (Postman Test Scripts)
 - JSON
 
-- ##  Environment Setup
+##  Environment Setup
 
 This project uses Postman Environment variables for dynamic execution.
 
