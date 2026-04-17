@@ -72,7 +72,7 @@ The API successfully returned a list of pets with status **available**.
 
 ### find pets by status test results
 
-![Find Pets by Status](Screenshots/find-pets-by-status.png)
+![Find Pets by Status](Screenshots/Find Pets by Status.png)
 
 
 ---
@@ -107,7 +107,7 @@ The pet was successfully created and returned in the response.
 
 
 ![Create Pet](Screenshots/create%20pet.png)
-![Create Pet Test Results](Screenshots/create-pet-test-results.png)
+![Create Pet Test Results](Screenshots/Create  Pet Test results.png)
 ---
 
 ## 3. Status Code Testing
