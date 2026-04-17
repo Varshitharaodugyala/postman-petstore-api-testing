@@ -4,6 +4,35 @@ This repository contains API testing for the Swagger Petstore using Postman.
 The collection includes requests, test scripts, environment variables, and execution screenshots for the assignment tasks.
 
 ---
+##  Application Details
+- Base URL: https://petstore.swagger.io/v2
+- API Documentation: https://petstore.swagger.io/
+
+- ##  Tools Used
+- Postman
+- REST APIs
+- JavaScript (Postman Test Scripts)
+- JSON
+
+- ##  Environment Setup
+
+This project uses Postman Environment variables for dynamic execution.
+
+##  Environment Variable
+
+| Key | Value |
+|-----|------|
+| url | https://petstore.swagger.io/v2 |
+
+
+## How to Run
+
+Import Postman collection
+Select environment: PetstoreEnv
+Ensure variable:
+url = https://petstore.swagger.io/v2
+Run collection using Collection Runner
+
 
 # Assignment Tasks
 
