@@ -72,7 +72,7 @@ The API successfully returned a list of pets with status **available**.
 
 ### find pets by status test results
 
-![Find Pets by Status](Screenshots/Find Pets by Status.png)
+![Find Pets by Status](Screenshots/find-pets-by-status.png)
 
 
 ---
@@ -106,8 +106,8 @@ The pet was successfully created and returned in the response.
 
 
 
-![Create Pet](Screenshots/create%20pet.png)
-![Create Pet Test Results](Screenshots/Create  Pet Test results.png)
+![Create Pet](Screenshots/create-pet.png)
+![Create Pet Test Results](Screenshots/create-pet-test-results.png)
 ---
 
 ## 3. Status Code Testing
@@ -132,7 +132,8 @@ The API returned the correct status codes for each scenario.
 
 ### Screenshot
 
-![Not Found Request](Screenshots/Not%20found%20request.png)
+![Not Found Request](Screenshots/not-found-request.png)
+
 
 ---
 
@@ -162,10 +163,10 @@ The pet details were retrieved successfully using the stored environment variabl
 
 ### Screenshot
 
-![Get Pet Using Environment Variable](Screenshots/Get%20pet%20using%20environment%20variables.png)
+![Get Pet Using Environment Variable](Screenshots/get-pet-using-environment-variables.png)
 
-![Environment Variable](Screenshots/Pet%20store%20environment%20.png)
 
+![Environment Variable](Screenshots/petstore-environment.png)
 
 ## Key Features
 
@@ -177,7 +178,7 @@ The pet details were retrieved successfully using the stored environment variabl
 
 ## Test Results
 
-![Test Results](Screenshots/Test%20Results.png)
+![Test Results](Screenshots/test-results.png)
 
 ## Conclusion
 
