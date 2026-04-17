@@ -108,7 +108,6 @@ The pet was successfully created and returned in the response.
 
 ![Create Pet](Screenshots/create%20pet.png)
 ![Create Pet Test Results](Screenshots/create-pet-test-results.png)
-
 ---
 
 ## 3. Status Code Testing
