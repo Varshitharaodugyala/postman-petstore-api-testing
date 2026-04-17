@@ -33,14 +33,14 @@ This project uses Postman Environment variables for dynamic execution.
 
 
 ## How to Run
-```
-Import Postman collection
-Select environment: PetstoreEnv
-Ensure variable:
-url = https://petstore.swagger.io/v2
-Run collection using Collection Runner
 
-```
+- Import Postman collection
+- Select environment: PetstoreEnv
+- Ensure variable:
+- url = https://petstore.swagger.io/v2
+- Run collection using Collection Runner
+
+
 
 # Assignment Tasks
 
