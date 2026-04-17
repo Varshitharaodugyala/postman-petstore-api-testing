@@ -61,13 +61,10 @@ The following test validations were performed:
 
 The API successfully returned a list of pets with status **available**.
 
-### Screenshot
+### find pets by status test results
 
 ![Find Pets by Status](Screenshots/find%20pets%20by%20status%20.png)
 
-### find pets by status test results
-
-![Find Pets Test Results](Screenshots/find%20pets%20by%20status%20test%20results.png)
 
 ---
 
@@ -97,7 +94,7 @@ The pet was successfully created and returned in the response.
 
 ### Screenshot
 
-![Create Pet Test Results](Screenshots/create%20pet%20test%20results.png)
+![Create Pet Test results](Screenshots/create%20pet%20test%20results.png)
 
 ![Create Pet](Screenshots/create%20pet.png)
 
