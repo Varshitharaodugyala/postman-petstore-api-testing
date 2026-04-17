@@ -4,6 +4,13 @@ This repository contains API testing for the Swagger Petstore using Postman.
 The collection includes requests, test scripts, environment variables, and execution screenshots for the assignment tasks.
 
 ---
+
+## Project Overview
+
+This project demonstrates API testing of the Swagger Petstore using Postman.
+It includes request validation, dynamic test scripting, environment variables, and automated test execution to ensure API reliability and correctness.
+
+
 ##  Application Details
 - Base URL: https://petstore.swagger.io/v2
 - API Documentation: https://petstore.swagger.io/
@@ -26,13 +33,14 @@ This project uses Postman Environment variables for dynamic execution.
 
 
 ## How to Run
-
+'''
 Import Postman collection
 Select environment: PetstoreEnv
 Ensure variable:
 url = https://petstore.swagger.io/v2
 Run collection using Collection Runner
 
+'''
 
 # Assignment Tasks
 
@@ -42,6 +50,7 @@ Run collection using Collection Runner
 
 This API retrieves a list of pets filtered by their status.
 For this test, the status parameter **available** was used to fetch all pets currently available in the store.
+
 
 ### Request Details
 
@@ -63,7 +72,7 @@ The API successfully returned a list of pets with status **available**.
 
 ### find pets by status test results
 
-![Find Pets by Status](Screenshots/find%20pets%20by%20status%20.png)
+![Find Pets by Status](Screenshots/find-pets-by-status.png)
 
 
 ---
@@ -87,6 +96,7 @@ The following validations were performed:
 * Verified response status code **200 OK**
 * Confirmed the response contains the same pet details that were sent in the request
 * Verified that the pet ID was created successfully
+* Validated response data dynamically using request body
 
 ### Test Result
 
@@ -94,9 +104,10 @@ The pet was successfully created and returned in the response.
 
 ### Screenshot
 
-![Create Pet Test results](Screenshots/create%20pet%20test%20results.png)
+
 
 ![Create Pet](Screenshots/create%20pet.png)
+![Create Pet Test Results](Screenshots/create-pet-test-results.png)
 
 ---
 
@@ -155,3 +166,22 @@ The pet details were retrieved successfully using the stored environment variabl
 ![Get Pet Using Environment Variable](Screenshots/Get%20pet%20using%20environment%20variables.png)
 
 ![Environment Variable](Screenshots/Pet%20store%20environment%20.png)
+
+
+## Key Features
+
+- Dynamic test validation using request & response data
+- Environment variable usage for reusable testing
+- Automated status code verification
+- Response time and content-type validation
+- End-to-end API testing using Postman Collection Runner
+
+## Test Results
+
+![Test Results](Screenshots/Test%20Results.png)
+
+## Conclusion
+
+All API endpoints were successfully tested with proper validations.  
+The collection demonstrates reliable API behavior with dynamic testing and complete coverage of key scenarios.
+
